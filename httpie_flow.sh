@@ -1,5 +1,6 @@
 #! /bin/bash
 # This bash script is written with httpie in mind which is a bash replacement
+# business_admin_user_and_ads_api_app_pair_token:= It is the token of the business admin user issued to the app being added
 # Claim the app for your business (app should be whitelisted for ads api access)
 http POST \
 app_id==123456789 \
